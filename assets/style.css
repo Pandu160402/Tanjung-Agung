@@ -1,0 +1,317 @@
+
+.warna{
+   background-color:#1C6758;
+   font-weight: 475;
+}
+
+html{
+   scroll-behavior: smooth;
+ 
+}
+
+body {
+   background-color: #E9F5DB;
+}
+
+.margin-section{
+   margin-top: 30px;
+}
+
+h3 {
+   color: #3F7B70;
+   text-align: center;
+   font-size: 40px;
+  
+}
+
+h4 {
+   color: #3F7B70;
+   font-size: 30px;
+}
+
+nav a:hover {
+   font-weight: bold;
+}
+
+.beranda {
+   
+   margin: 40px auto;
+   text-align: center;
+}
+
+/* img-home */
+.img-home {
+   height: 100vh;
+}
+
+.gambar-home {
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+}
+
+.gambar-home.g1 {
+   background-image: url(../assets/baldes.jpg);
+}
+
+.gambar-home.g2 {
+   background-image: url(../assets/kolam.jpg);
+}
+
+.gambar-home.g3 {
+   background-image: url(../assets/kebun\ karet.jpg);
+}
+
+.teks-home {
+   margin: auto;
+   left: 50%;
+   transform: translate(-50%);
+   height: 100%;
+   max-width: 700px;
+   /* background-color: yellow; */
+   z-index: 2;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.selamat {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 54px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.wayharong {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 61px;
+   line-height: 72px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.kab {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 28px;
+   line-height: 42px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+   color: rgb(255, 255, 255);
+}
+
+/* img-home end */
+
+
+
+.profil{
+   text-align: center;
+   margin: 40px 10px 40px 10px;
+}
+.profil p {
+   font-size: 25px;
+   font-weight: 300;
+}
+
+/* seajrah */
+.teks-sejarah .heading{
+   color: #3F7B70;
+   margin-top: 20px;
+   text-align: center;
+}
+
+.img-sejarah img{
+   border-radius: 6px;
+   width: 400px;
+   height: 250px;
+}
+/* sejarah */
+
+
+.sejarah{
+   display:flex;
+}
+.sejarah h3 {
+   font-size: 40px;
+}
+
+.sejarah p {
+   font-size: 18px;
+}
+
+.tulisan{
+   padding-left: 30px;
+}
+
+.tulisan h3{
+   text-align: center;
+}
+
+.gambar{
+   margin-left:10px; 
+   border-radius: 10px;
+   margin-top: 10px;
+   width: 220px;
+}
+
+.wilayah {
+   margin-top: 20px;
+   text-align: center;
+}
+.dafwil{
+   margin:20px auto;
+   display:flex;
+   justify-content: center;
+   gap: 50px;
+}
+
+.carwil{
+   margin-top: 50px;
+   padding: 5px;
+   display: flex;
+   width: 300px;
+   background-color: #67C39C;
+   text-align: center;
+   border-radius: 6px;
+   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.247);
+}
+.opsional {
+   margin: 40px 10px 40px 10px;
+   padding: 5px;
+}
+.opsional p{
+   font-size: 20px;
+}
+
+
+
+/* wilayah */
+
+.wrap-wil {
+   background: #67C39C;
+   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* padding: 50px 0px; */
+   height: 300px;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.desa {
+   background:#1C6758;
+   backdrop-filter: blur(4px);
+   border-radius: 10px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   clip-path: circle(0.0% at 50% 50%);
+   transition: .4s ease-in-out;
+}
+
+.desa li {
+  text-align: left;
+}
+.desa.kiri{
+   justify-content: start;
+   padding-left: 20px;
+}
+
+.wrap-wil:hover .desa {
+   clip-path: circle(70.7% at 50% 50%);
+   transition: .4s ease-in-out;
+}
+
+.nama-desa {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 35px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.kec-desa {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 31px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+/* wilayah end */
+
+
+/* info-desa */
+
+.wrap-desa .teks{
+   color: white;
+   font-size: 27px;
+   font-weight: 600;
+}
+
+.wrap-desa ul li{
+   color: white;
+}
+
+.wrap-wil .judul{
+   color: black;
+   font-size: 27px;
+   font-weight: 600;
+}
+
+/* info-desa end */
+
+footer{
+   background-color:#1C6758 ;
+   color: #FFFFFF;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   text-align: center;
+   height: 40px;
+
+}
+
+.kontak{
+   text-align: center;
+}
+
+.lokan{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 300px;
+   margin: 30px auto;
+   
+}
+
+.navbar{
+   z-index: 999;
+   width: 100%;
+}
+
+.peta {
+   width: 400px;
+   height: auto;
+}
+
